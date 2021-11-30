@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+}
+
+.container > * {
+    border: blue dotted 1px;
+}
+
+.bulk-info {
+    display: grid;
+}
