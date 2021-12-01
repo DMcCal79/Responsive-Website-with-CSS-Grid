@@ -10,6 +10,51 @@ html {
     border: blue dotted 1px;
 }
 
+
+.hero {
+    display: grid;
+    height: 300px;
+}
+
+nav {
+    display: grid;
+    height: 80px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.links li {
+    width: 100%;
+    
+}
+.links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(25,97,39, 1);
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
 .bulk-info {
     display: grid;
+    height: 600px;
+}
+
+.contact-info {
+    display: grid;
+    height: 200px;
 }
