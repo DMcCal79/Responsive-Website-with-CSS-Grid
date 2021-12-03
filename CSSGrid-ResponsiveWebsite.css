@@ -51,10 +51,39 @@ nav {
 
 .bulk-info {
     display: grid;
-    height: 600px;
+    height: 800px;
+    gap: 20px;
+    grid-template-areas:
+    "calendar story story story"
+    "calendar story story story"
 }
+
+.bulk-info > * {
+    border: red dotted 1px;
+}
+
+.calendar {
+    grid-area: calendar;
+    background: rgba(42,202,119,.2)
+}
+
+.story {
+    grid-area: story;
+    background: rgba(248,222,144,.2)
+}
+
 
 .contact-info {
     display: grid;
     height: 200px;
+}
+
+@media (max-width: 768px) {
+    .bulk-info {
+        grid-template-areas:
+        "story story"
+        "story story"
+        "story story"
+        "calendar calendar"
+    }
 }
