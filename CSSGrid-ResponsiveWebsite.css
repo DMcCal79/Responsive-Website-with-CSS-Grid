@@ -69,7 +69,24 @@ nav {
 
 .story {
     grid-area: story;
-    background: rgba(248,222,144,.2)
+    background: rgba(248,222,144,.2);
+    display: grid;
+    grid-template-areas:
+    "bridge-photo"
+    "about-bridge"
+    "about-bridge"
+}
+
+#bridge-frame {
+    grid-area: bridge-photo;
+}
+
+#bridge {
+    width: 100%;
+}
+
+.about-bridge {
+    grid-area: about-bridge;
 }
 
 
