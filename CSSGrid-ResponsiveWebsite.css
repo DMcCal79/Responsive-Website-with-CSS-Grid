@@ -121,4 +121,9 @@ nav {
         "story story"
         "calendar calendar"
     }
+
+    .calendar {
+        grid-template-areas:
+        "mozarts-frame events"
+    }
 }
