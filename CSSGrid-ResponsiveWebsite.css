@@ -64,7 +64,23 @@ nav {
 
 .calendar {
     grid-area: calendar;
-    background: rgba(42,202,119,.2)
+    background: rgba(42,202,119,.2);
+    display: grid;
+    grid-template-areas:
+    "mozarts-frame"
+    "events"
+}
+
+#mozarts-frame {
+    grid-area: mozarts-frame;
+}
+
+#mozarts {
+    width: 100%;
+}
+
+#events {
+    grid-area: events;
 }
 
 .story {
@@ -72,20 +88,22 @@ nav {
     background: rgba(248,222,144,.2);
     display: grid;
     grid-template-areas:
-    "bridge-photo"
-    "about-bridge"
-    "about-bridge"
+    "bridge-photo bridge-photo bridge-photo"
+    "bridge-photo bridge-photo bridge-photo"
+    "about-bridge about-bridge about-bridge"
 }
 
 #bridge-frame {
     grid-area: bridge-photo;
+    /* background: red; */
 }
 
 #bridge {
     width: 100%;
+
 }
 
-.about-bridge {
+#about-bridge {
     grid-area: about-bridge;
 }
 
