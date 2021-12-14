@@ -77,6 +77,7 @@ nav {
 
 #mozarts-frame {
     grid-area: mozarts-frame;
+    padding: 20px;
 }
 
 #mozarts {
@@ -85,6 +86,15 @@ nav {
 
 #events {
     grid-area: events;
+    padding: 20px;
+}
+
+#dates {
+    list-style: none;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .story {
@@ -99,6 +109,7 @@ nav {
 
 #bridge-frame {
     grid-area: bridge-photo;
+    padding: 20px;
     /* background: red; */
 }
 
@@ -109,6 +120,7 @@ nav {
 
 #about-bridge {
     grid-area: about-bridge;
+    padding: 20px;
 }
 
 
