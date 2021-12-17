@@ -70,6 +70,7 @@ nav {
     grid-area: calendar;
     background: rgba(42,202,119,.2);
     display: grid;
+    align-items: center;
     grid-template-areas:
     "mozarts-frame"
     "events"
@@ -85,12 +86,19 @@ nav {
 }
 
 #events {
+    display: grid;
     grid-area: events;
     padding: 20px;
+    justify-items: center;
+    align-items: center;
+
 }
 
 #dates {
     list-style: none;
+    text-align: right;
+    padding: 0;
+    line-height: 1.6;
 }
 
 .bold {
@@ -110,6 +118,9 @@ nav {
 #bridge-frame {
     grid-area: bridge-photo;
     padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
     /* background: red; */
 }
 
@@ -121,6 +132,7 @@ nav {
 #about-bridge {
     grid-area: about-bridge;
     padding: 20px;
+    line-height: 1.6;
 }
 
 
