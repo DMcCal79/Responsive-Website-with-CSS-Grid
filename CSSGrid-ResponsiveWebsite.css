@@ -24,7 +24,17 @@ html {
     background-position: center;
     background-size: cover;
     grid-area: hero;
+    justify-items: start;
+    align-items: end;
+    padding: 30px;
 }
+
+.hero h1 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 7em;
+    color: white;
+    margin: 0;
+}/
 
 nav {
     display: grid;
@@ -89,7 +99,11 @@ nav {
 #mozarts-frame {
     grid-area: mozarts-frame;
     padding: 20px;
+    display: grid;
+    justify-items: center;
 }
+
+
 
 #mozarts {
     width: 100%;
@@ -121,7 +135,8 @@ nav {
     display: grid;
     grid-template-areas:
     "bridge-photo bridge-photo bridge-photo"
-    "bridge-photo bridge-photo bridge-photo"
+    /* "bridge-photo bridge-photo bridge-photo" */
+    "about-bridge about-bridge about-bridge"
     "about-bridge about-bridge about-bridge"
 }
 
@@ -129,7 +144,7 @@ nav {
     grid-area: bridge-photo;
     padding: 20px;
     display: grid;
-    align-items: center;
+    align-items: top;
     justify-items: center;
     /* background: red; */
 }
