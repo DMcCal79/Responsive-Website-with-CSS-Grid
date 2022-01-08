@@ -176,13 +176,15 @@ nav {
     display: grid;
     background: rgba(25,97,39, .2);
     grid-area: contact-info;
+    padding: 20px;
+    gap: 20px;
     border-radius: 30px;
     grid-template-areas:
     "map reach-us"
 }
 
 #map {
-    /* grid-area: map; */
+    grid-area: map;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -196,6 +198,7 @@ nav {
 
 @media (max-width: 768px) {
     .bulk-info {
+        height: 2200px;
         grid-template-areas:
         "story story"
         "story story"
