@@ -196,6 +196,11 @@ nav {
     font-size: 1.5em;
 }
 
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
 @media (max-width: 768px) {
     .bulk-info {
         height: 2200px;
