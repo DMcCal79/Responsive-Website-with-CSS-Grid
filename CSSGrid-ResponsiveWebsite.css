@@ -194,11 +194,30 @@ nav {
     grid-area: reach-us;
     font-family: 'Signika', sans-serif;
     font-size: 1.5em;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
 }
-
 .social-media {
     list-style: none;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    font-size: 2em;
+    width: 100%;
+}
+
+#email {
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    color: white;
+    background: rgba(25,97,39, 1);
+    border-radius: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 20%;
+
 }
 
 @media (max-width: 768px) {
