@@ -73,6 +73,10 @@ nav {
     font-family: 'Signika', sans-serif;
 }
 
+a:hover {
+    background: rgba(25,97,39, .50);
+}
+
 .bulk-info {
     display: grid;
     height: 1200px;
