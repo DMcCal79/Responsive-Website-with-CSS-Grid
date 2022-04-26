@@ -12,9 +12,9 @@ html {
     "contact-info"
 }
 
-.container > * {
+/* .container > * {
     border: blue dotted 1px;
-}
+} */
 
 
 .hero {
@@ -253,9 +253,15 @@ img {
         "calendar calendar"
     }
 
-    .calendar {
+    /* .calendar {
         grid-template-areas:
         "mozarts-frame events"
         "mozarts-frame events"
+    } */
+
+    .contact-info {
+        grid-template-areas:
+        "map"
+        "reach-us"
     }
 }
